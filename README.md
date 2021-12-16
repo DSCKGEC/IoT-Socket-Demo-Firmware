@@ -90,6 +90,8 @@ For the Server side, go to [Socket-IoT-Demo](https://github.com/DSCKGEC/IoT-Sock
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
+- [Platform Io](https://platformio.org/)
+
 <br>
 
 ## <b>Project Images :</b>
@@ -100,13 +102,9 @@ For the Server side, go to [Socket-IoT-Demo](https://github.com/DSCKGEC/IoT-Sock
 
 ## <b>Languages Used : </b>
 
--  [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />]()
+-  [<img align="left" alt="JavaScript" width="26px" src="https://user-images.githubusercontent.com/72512900/146313275-30ec5b18-531f-4444-a777-025ff4deacbb.png" />]()
 <br>
 
--  [<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />]() 
-<br>
-
--  [<img align="left" alt="express.js" width="26px" src="https://user-images.githubusercontent.com/72512900/146031683-39224f71-3047-4fa1-a704-8cbd68744c35.jpeg" />]()
 
 <br>
 
