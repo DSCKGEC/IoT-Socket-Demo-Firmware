@@ -39,16 +39,17 @@ void setup()
 {
     USE_SERIAL.begin(74880);
     pinMode(LED_PIN, OUTPUT);
+    analogWriteFreq(500);
     // for ease of debugging
     USE_SERIAL.setDebugOutput(true);
 
     // USE_SERIAL.printf("\n\n\n");
-    // for (uint8_t t = 4; t > 0; t--)
-    // {
-    //     USE_SERIAL.printf("  [SETUP] BOOT WAIT %d...\r", t);
-    //     USE_SERIAL.flush();
-    //     delay(1000);
-    // }
+    for (uint8_t t = 4; t > 0; t--)
+    {
+        USE_SERIAL.printf("  [SETUP] BOOT WAIT %d...\r", t);
+        USE_SERIAL.flush();
+        delay(250);
+    }
 
     // disable AP
     if (WiFi.getMode() & WIFI_AP)
@@ -127,7 +128,7 @@ void payloadHandler(uint8_t *payload)
     }
     else
         return;
-    delay(20);
+    delay(10);
     // update the lamp-state only if else block is not triggered
     updateLamp(LED_PIN, data);
 }
