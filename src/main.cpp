@@ -18,7 +18,7 @@
 /* ======== Macros ======== */
 #define USE_SERIAL Serial // USB port
 #define PWM_MAX 500
-#define LED_PIN 2
+#define LED_PIN 4 //D2
 
 /* ======== GLobals ======== */
 WiFiManager wm;
@@ -127,6 +127,7 @@ void payloadHandler(uint8_t *payload)
     }
     else
         return;
+    delay(20);
     // update the lamp-state only if else block is not triggered
     updateLamp(LED_PIN, data);
 }
