@@ -2,7 +2,7 @@
 
 This is a demo IoT project based on socket-io and express under DSC KGEC.<br>
 This contains the firmware for the demonstration
-For the Server side, go to [Socket-IoT-Demo](https://github.com/DSCKGEC/IoT-Socket-Demo)
+For the Server side, visit [Socket-IoT-Demo](https://github.com/DSCKGEC/IoT-Socket-Demo)
 <br>
 
 ## **Contents :**
