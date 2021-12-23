@@ -48,7 +48,7 @@ void setup()
     {
         USE_SERIAL.printf("  [SETUP] BOOT WAIT %d...\r", t);
         USE_SERIAL.flush();
-        delay(250);
+        delay(1000);
     }
 
     // disable AP
